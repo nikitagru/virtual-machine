@@ -5,7 +5,7 @@ wenn _1000 gleich _1001 => geben 1
 wenn _1000 gleich _1002 => geben 1
 @multiplikation:
 legen 1003 _1000
-senken 1003
 mul 1000 _1003 _1000
-wenn _1000 uber _1001 => @multiplikation
+senken 1003
+wenn _1003 uber _1001 => @multiplikation
 geben _1000
